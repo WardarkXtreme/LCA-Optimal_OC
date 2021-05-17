@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -118,7 +117,9 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+a{
+    text-decoration: none;
+}
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -135,7 +136,34 @@ a:hover {
 .d-bloc p a {
     color: black
 }
-
+.navbar2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav-bar2{
+    display: flex;
+}
+.reglage-li-nav{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.foot-div{
+    display: flex;
+    flex-direction: column;
+}
+.div-foot{
+    display: flex;
+    justify-content: center;
+}
+.social2{
+    padding-left: 10px;
+}
+.sizeicone{
+    font-size: 40px;
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -559,7 +587,17 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-
+.text-center2{
+    text-align: center;
+    color: black;
+}
+.text-center2 h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.text-center2 p{
+    font-size: 24px;
+}
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -639,7 +677,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+h1{
+    font-family: "helvetica";
+    color: black;
+}
 h2,
 h3,
 h4,
@@ -654,7 +695,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 2000px;
 }
 
 .hero-bloc-text {
@@ -721,10 +762,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -771,6 +808,8 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    display: flex;
+    justify-content: center;
 }
 
 .tc-white {
@@ -878,7 +917,6 @@ h4 {
     .bloc-group,
     .bloc-group .bloc {
         display: block;
-        width: 100%;
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
@@ -1032,6 +1070,7 @@ h4 {
 .black--{
     font-weight: 700;
     color: black;
+    font-size: 32px;
 }
 
 @media (max-width: 400px) {
