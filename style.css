@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(12, 12, 12, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1026,6 +1026,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+.titlecolor {
+    font-size: 25px;
 }
 
 @media (max-width: 400px) {
