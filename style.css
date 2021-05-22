@@ -642,6 +642,7 @@ a {
 
 p {
     font-size: 19px;
+    color: rgb(45, 45, 45)
 }
 
 .tight-width-whitespace {
@@ -788,7 +789,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
