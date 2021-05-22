@@ -11,6 +11,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -31,7 +32,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,7 +56,10 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.col-sm-6{
+    padding-left: 40px;
+    color: black;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -101,6 +105,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    text-align: center;
 }
 
 .d-bloc button:hover {
@@ -214,7 +219,7 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar {
+.l-bloc .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
@@ -288,6 +293,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -302,6 +311,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    display: none;
 }
 
 .navbar-toggle:hover {
@@ -327,7 +337,7 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
+        top: 21%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -472,8 +482,11 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+.form-group{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .scrollToTop {
@@ -657,7 +670,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -747,7 +760,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -791,12 +804,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
